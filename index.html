@@ -55,7 +55,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html" class="font-weight-bold"></a>
+                <a href="/" class="font-weight-bold"></a>
               </div>
             </div>
 
@@ -68,11 +68,11 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="work.html" class="nav-link">Projects</a></li>
-                  <li><a href="journal.html" class="nav-link">Works</a></li>
-                  <li><a href="contact.html" class="nav-link">Research</a></li>
+                  <li class="active"><a href="#" class="nav-link" onclick="$('body').removeClass('offcanvas-menu');">Home</a></li>
+                  <li><a href="#about" class="nav-link" onclick="$('body').removeClass('offcanvas-menu');">About</a></li>
+                  <li><a href="#project" class="nav-link" onclick="$('body').removeClass('offcanvas-menu');">Projects</a></li>
+                  <li><a href="#work" class="nav-link" onclick="$('body').removeClass('offcanvas-menu');">Works</a></li>
+                  <li><a href="#research" class="nav-link" onclick="$('body').removeClass('offcanvas-menu');">Research</a></li>
                 </ul>
               </nav>
             </div>
@@ -90,7 +90,7 @@
             <div class="col-md-7 text-center">
               <h1 class="mb-4 text-white">EASHAN ARORA</h1>
               <p class="mb-4">Final year student at Jaypee Institute of Information Technology, Noida. Pursuing B.Tech in CSE.</p>
-              <!-- Add the link of the resume here --><p><a href="#" class="btn btn-primary btn-outline-white py-3 px-5" target="_blank">Download Resume</a></p>
+              <!-- Add the link of the resume here --><p><a href="Resume.pdf" class="btn btn-primary btn-outline-white py-3 px-5" target="_blank">Download Resume</a></p>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
 
 
     <div class="site-section">
-      <div class="container">
+      <div class="container" id="about">
         <div class="row align-items-center">
           <div class="col-md-4">
             <h2 class="h4 mb-4">About me</h2>
@@ -163,7 +163,7 @@
     </div>
 
     <div class="site-section bg-light">
-      <div class="container">
+      <div class="container" id="project">
         <div class="row mb-5">
           <div class="col-md-7 mx-auto text-center">
             <h2 class="heading-29190">Projects</h2>
@@ -175,7 +175,7 @@
               <span class="d-block wrap-icon">
                 <span class="icon-desktop_mac"></span>
               </span>
-              <h3>New Embeddings from language model</h3>
+              <a href="" target="_blank"><h3>New Embeddings from language model</h3></a>
               <p>This project is based on text summarization for long documents.</p>
             </div>
           </div>
@@ -184,7 +184,7 @@
               <span class="d-block wrap-icon">
                 <span class="icon-desktop_mac"></span>
               </span>
-              <h3>Word based level Machine Translation</h3>
+              <a href="https://github.com/eashan27/Machine_translation" target="_blank"><h3>Word based level Machine Translation</h3></a>
               <p>Parallel training for a language translation using sequence-to-sequence model from NLP.</sequence-to-se></p>
             </div>
           </div>
@@ -211,7 +211,7 @@
     </div>
 
     <div class="site-section">
-      <div class="container">
+      <div class="container" id="work">
 
         <div class="row mb-5">
           <div class="col-md-7 mx-auto text-center">
@@ -286,7 +286,7 @@
       </div>
     </div> <!-- END .site-section -->
     <div class="site-section bg-light">
-      <div class="container">
+      <div class="container" id="research">
 
         <div class="row mb-5">
           <div class="col-md-7 mx-auto text-center">
